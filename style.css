@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: cyan;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+    display: flex;
+    background-color: #262935;
+}
+.profile-photo {
+    border-radius: 50%;
+}
+.name {
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.about-me {
+    background-color: pink;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    transform: skew(0deg , -5deg ) translateY(120px);
+    z-index: 1;
+}
+.text-about-me {
+    font-size: 2rem;
+    font-family: Jubilat;
+    background-color: #FF1493;
+}
+p{
+    margin: 0;
+}
+
+.link-to-git {
+    margin-top: 140px;
+    height: 40vh;
+    background-color:  #ccff00 ;
+    transform: skew(0deg , 5deg ) translateY(0px);
+    z-index: -1;
+}
+
+.link-to-git h4 {
+    margin-left: 70px;
+}
+
+.my_projects {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex: 1;
+    align-content: stretch;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+    min-height:210px;
+}
+.description h2 {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+svg {
+    width: 24px;
+    height: 24px;
+    color: hotpink;
+    fill: hotpink;
+}
+
+.project {
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 8px;
+    display: block;
+    background-color: white;
+    width: fit-content;
+    max-width: 270px;
+    align-items: center;
+    justify-content: center;
+    min-height: 340px;
+}
+a {
+    margin-left: 40%;
+}
+
+h5 {
+    margin: 0px;
+    margin-left: 40%;
+}
